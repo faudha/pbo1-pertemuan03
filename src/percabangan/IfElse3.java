@@ -2,7 +2,7 @@ package percabangan;
 
 public class IfElse3 {
     public static void main(String[] args) {
-        double totalBelanja = 21000;
+        double totalBelanja = 25000;
         double uangDidompet = 25000;
 
         if(uangDidompet<totalBelanja){
