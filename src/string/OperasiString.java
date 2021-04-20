@@ -1,5 +1,7 @@
 package string;
 
+import java.util.Locale;
+
 public class OperasiString {
     public static void main(String[] args) {
         String Kota = "Yogyakarta";
@@ -10,5 +12,9 @@ public class OperasiString {
 
         System.out.println(uniskaString);
 
+        System.out.println(Kota.toUpperCase());
+        System.out.println(Kota.toLowerCase());
+        System.out.println(Kota.substring(5));
+        System.out.println(Kota.substring(0,4));
     }
 }
